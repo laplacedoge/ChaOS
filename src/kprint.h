@@ -32,4 +32,6 @@
 
 int kprint_put_text(int row, int col, const char *text, uint8_t attr);
 
+int khexdump(int row, int col, const void *buff, size_t size, uint8_t attr);
+
 int kprint_clear(void);
